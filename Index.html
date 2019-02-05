@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Index.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    </head>
+    <body onresize="onResize()"> 
+        <br>
+        <div id="cardgame-container" class="ui-widget-content game-container">
+        
+        </div>
+        <br>
+        <div class="panel score">
+            <div class="score-title">
+                Score
+            </div>
+            <div>Pairs checked: <span id="pairs-checked"></span></div>
+            <div>Pairs found: <span id="pairs-found"></span></div>
+            <div>Pairs left: <span id="pairs-left"></span></div>
+            
+            <br>Game width:
+            <div id="game-size"></div>
+        </div>
+        <div class="panel leaderboard" style="display:none">
+                leaderboard
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </table>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <script src="Index.js"></script>
+   
+</html>

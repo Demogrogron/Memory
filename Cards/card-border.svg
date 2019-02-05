@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="312">
+  <defs>
+    <pattern xlink:href="#a" id="b" patternTransform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,127.76526,536.84923)"/>
+  </defs>
+  <g transform="translate(-260.43307,-370.27557) translate(811.37551,-119.72681)" stroke="#d40000" stroke-linecap="round">
+    <rect width="197.05205" height="286.64417" ry="0" x="-537.85431" y="502.58582" fill="none" stroke-width="4.95238304"/>
+    <path fill="url(#b)" d="M-533.46661 506.45496h188.27672v278.90585h-188.27672z"/>
+  </g>
+</svg>
